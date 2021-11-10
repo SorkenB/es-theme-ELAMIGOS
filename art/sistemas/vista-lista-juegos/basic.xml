@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic">
+
+<image name="background" extra="true">
+<tile>false</tile>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<size>1 1</size>
+<path>./art/sistemas/fondos/basic.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>20</zIndex>
+</image>
+
+
+<textlist name="gamelist">
+<selectorHeight>0.0498148148148148</selectorHeight>
+<selectorColor>ffffff</selectorColor>
+<forceUppercase>1</forceUppercase>
+<selectedColor>ffffff</selectedColor>
+<primaryColor>ffffff</primaryColor>
+<secondaryColor>7a6161</secondaryColor>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<selectorImagePath>./art/sistemas/fondos/selector.png</selectorImagePath>
+<forceUppercase>1</forceUppercase>
+<pos>0.240 0.110</pos>
+<size>0.5025 0.900</size>
+<alignment>center</alignment>
+<lineSpacing>1.720</lineSpacing>
+<horizontalMargin>0.00</horizontalMargin>
+<fontSize>0.04</fontSize>
+<zIndex>90</zIndex>
+</textlist>
+
+
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>292</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>290</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<helpsystem name="help">
+<textColor>00000000</textColor>
+<iconColor>00000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.29 0.97</pos>
+</helpsystem>
+
+<image name="md_marquee">
+<pos>0.830 0.09</pos>
+<size>0.150 0.099</size>
+<zIndex>90</zIndex>
+<linearSmooth>true</linearSmooth>
+</image>
+
+
+
+<text name="logoText">
+<pos>0.830 0.09</pos>
+<size>0.150 0.099</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.07</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+<zIndex>23</zIndex>
+</text>
+<image name="logo">
+<pos>0.830 0.09</pos>
+<size>0.152 0.120</size>
+<origin>0.5 0.5</origin>
+<linearSmooth>true</linearSmooth>
+<zIndex>23</zIndex>
+</image>
+
+<rating name="md_rating">
+<pos>0.88 0.886</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+
+<text name="fullName,manufacturerName">
+<visible>false</visible>
+<color>00000000</color>
+</text>
+
+<video name="marquesinavideo,marquerandomvid,videofondomarquee" extra="true">
+<visible>false</visible>
+<color>00000000</color>
+</video>
+
+<image name="defaultimagen" extra="true">
+<visible>false</visible>
+<color>00000000</color>
+</image> 
+
+<image name="logocoinops,glassmarquee,sombra,lineasv,scanlinemarquee,backgroundsystem,glassvideo,fondocarrusel" extra="true">
+<visible>false</visible>
+<color>00000000</color>
+</image> 
+</view>
+
+</theme>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<colorbgName>COLOR DE MAQUINA ARCADE</colorbgName>
+<fondocarruselName>IMAGEN DE FONDO DEL CARRUSEL</fondocarruselName>
+<bigboxName>ANIMACION TIPO BIGBOX</bigboxName>
+<sombraName>APLICAR SOMBRA</sombraName>
+<glassmarqueeName>APLICAR EFECTO GLASS SOBRE MARQUESINA</glassmarqueeName>
+<scanlinemarqueeName>APLICAR SCANLINE SOBRE MARQUESINA</scanlinemarqueeName>
+<systemInfoName>POSISION - TOTAL GAMES</systemInfoName>
+<marqueevideoName>VIDEO MARQUESINA EN SISTEMA</marqueevideoName>
+<marqueevideoglName>VIDEO MARQUESINA EN GAMELIST</marqueevideoglName>
+<subset.animacion-imagen-de-fondo>ANIMACION EN IMAGEN DE TRASFONDO</subset.animacion-imagen-de-fondo>
+<informacionsystemName>CAMBIAR IDIOMA DE DESCRIPCION</informacionsystemName>
+
+
+
+
+<glassName>APLICAR EFECTO GLASS SOBRE VIDEO</glassName>
+<scanlineName>APLICAR SCANLINE SOBRE VIDEO</scanlineName>
+<size-personaje1Name>TAMAÑO DEL PERSONAJE 1</size-personaje1Name>
+<size-personaje2Name>TAMAÑO DEL PERSONAJE 2</size-personaje2Name>
+<size-personaje3Name>TAMAÑO DEL PERSONAJE 3</size-personaje3Name>
+<opciones-de-videoName>OPCIONES DE FONDO EN VIDEO (solo en system)</opciones-de-videoName>
+<mostrar-boxarteName>MOSTRAR CARATULAS</mostrar-boxarteName>
+<mostrar-consolaName>MOSTRAR CONSOLA</mostrar-consolaName>
+<mostrar-controlesName>MOSTRAR CONTROLES</mostrar-controlesName>
+<animacion-de-personajes-1Name>PERSONAJE 1 ANIMACION</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>PERSONAJE 2 ANIMACION</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>PERSONAJE 3 ANIMACION</animacion-de-personajes-3Name>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRAR PERSONAJES</mostra-personajesName>
+<cambiar-logos-en-carruselName>CAMBIAR LOGOS EN CARRUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CAMBIAR LOGOS EN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVAR ANIMACION EN LOGO ACTIVO DEL CARRUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.aplicar-sonido-en-carrusel>APLICAR SONIDO EN CARRUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLICAR SONIDO EN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<menuName>CAMBIAR ESTILO DEL MENU</menuName>
+<subset.shader>SHADERS - (POR ENCIMA DE TODO)</subset.shader>
+<subset.colorset>CAMBIAR COLOR DEL SISTEMA (Menus)</subset.colorset>
+</variables>
+</theme>
