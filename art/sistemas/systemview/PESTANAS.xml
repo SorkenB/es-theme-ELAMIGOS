@@ -17,16 +17,17 @@
 <defaultTransition>instant</defaultTransition>      
 </carousel>
 
+
 <text name="systemInfo">
-<visible>true</visible>
+<visible>false</visible>
 <systemInfoDelay>300</systemInfoDelay>
-<pos>0.319  0.357</pos>
+<pos>0.675  0.730</pos>
 <size>0.420 0.35</size>
 <fontSize>0.02</fontSize>
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>ffffff</color>
-<glowColor>000000</glowColor>
+<color>00000000</color>
+<glowColor>ffffff</glowColor>
 <glowSize>1</glowSize>
 <reflexion>0.0 0.0</reflexion>
 <rotation>0</rotation> 
@@ -45,131 +46,106 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/sistemas/fondos/background sistema.png</path>
-<zIndex>35</zIndex>
+<path>./art/sistemas/fondos/gris0.png</path>
+<zIndex>30</zIndex>
+</image>
+
+<image name="fondo1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/gris2.png</path>
+<zIndex>43</zIndex>
+</image>
+
+<image name="fondo2" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/gris1.png</path>
+<zIndex>45</zIndex>
 </image>
 
 <image name="background3" extra="true">
 <tile>false</tile>
 <visible>false</visible>
-<color>ffffff10</color>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/wall/default.png</path>
-<path>./art/sistemas/wall/${system.theme}.png</path>
-<linearSmooth>true</linearSmooth>
-<zIndex>95</zIndex>
+<color>00000000</color>
 </image> 
 
-
-<video name="backgroundvideo1" extra="true">
-<visible>true</visible>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.03</roundCorners>      
-<pos>0.2420 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo1" extra="true">
-<visible>true</visible>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.2000 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo2" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.3740 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo3" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.5480 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo4" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.7220 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-
-<image name="box10" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.160 0.190</pos>
-<maxSize>0.17 0.50</maxSize>
+<image name="marcosnap" extra="true">
+<tile>false</tile>
+<pos>1.2560 0.0860</pos>
+<size>0.5608 0.8490</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/marcovideo.png</path>
 <zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-<visible>true</visible>
-<reflexion>0.0 0.0</reflexion>
-<opacity>0</opacity>
-<scale>0</scale>
-<scaleOrigin>0 0.5</scaleOrigin>
-<zIndex>97</zIndex>
-<storyboard repeat="forever">
-<animation property="opacity" from="0" to="1" begin="350" duration="700" mode="linear"/>
-<animation property="scale" from="0" to="1" begin="0" duration="800"/>
-
-<animation property="y" from="0.330"  to="0.330" begin="0" duration="1780" autoreverse="true" begin="2000" repeat="5"/>
+<storyboard> 
+<animation property="x" from="1" to="0.2560" begin="0" duration="1250" mode="easeOut"/>
 </storyboard>
 </image>
 
-<image name="box2,box1" extra="true">
+<video name="backgroundvideo1" extra="true">
+<visible>true</visible>
+<path>{random}</path>  
+<rotation>0</rotation>  
+<roundCorners>0</roundCorners>      
+<pos>1 0.1829</pos>
+<size>0.4988 0.6560</size>
+<origin>0 0</origin>
+<delay>1</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+ <linearSmooth>true</linearSmooth>
+<color>FFFFFF</color>
+<zIndex>42</zIndex>
+<effect>none</effect>
+<storyboard> 
+<animation property="x" from="1" to="0.3200" begin="0" duration="950" mode="easeOut"/>
+</storyboard>
+</video>
+
+
+
+<image name="ovalotime" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.0961</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovalotime.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="200" duration="950" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="ovaloplayers" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.4161</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovaloplayers.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="300" duration="950" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="ovalogenero" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.7461</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovalogenero.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="400" duration="1150" mode="easeOut"/>
+</storyboard>
+</image>
+
+
+<image name="controles,consola,box10,box2,box1" extra="true">
 <visible>false</visible>
 <color>FFFFFFFF</color>
 </image>
@@ -244,32 +220,12 @@
 <zIndex>291</zIndex>
 </image>
 
-<image name="box1" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.401 0.60</pos>
-<maxSize>0.07 0.30</maxSize>
-<zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-</image>
-
-<image name="box2" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.351 0.60</pos>
-<maxSize>0.04 0.20</maxSize>
-<zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-</image>
-
 <helpsystem name="help">
 <visible>false</visible>
-<textColor>ffffff</textColor>
-<iconColor>ffffff</iconColor>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.05 0.950</pos>
+<pos>0.02 0.960</pos>
 <zIndex>90</zIndex>
 </helpsystem>
       
@@ -286,23 +242,9 @@
 </image>
 
 
-<text name="fullNamebigbox" extra="true">
-<text>${system.fullName}</text>
-<alignment>left</alignment>
-<verticalAlignment>top</verticalAlignment>
-<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.024</fontSize>
-<alignment>center</alignment>
-<pos>0.290 0.518</pos>
-<pos verticalScreen="true">0.03 0.10</pos>         
-<size>0.14 0.02</size>
-<zIndex>190</zIndex>
-<color>D0D0D0FF</color>
-<glowColor>000000A0</glowColor>
-<glowSize>1</glowSize>  
-<pos tinyScreen="true">0.03 0.13</pos>
-<glowColor tinyScreen="true">00000040</glowColor>
-<fontSize tinyScreen="true">0.035</fontSize>
+<text name="manufacturerbigbox,fullNamebigbox" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
 </text>
 
 <text name="sys_info" extra="true">
@@ -310,27 +252,11 @@
 <color>00000000</color>
 </text>
 
-<text name="manufacturerbigbox" extra="static">
-<text>${system.sortedBy}</text>
-<alignment>left</alignment>
-<verticalAlignment>top</verticalAlignment>
-<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.030</fontSize>
-<pos>0.660 0.512</pos>
-<size>0.942 0.28</size>
-<color>C0C0C0</color>      
-<zIndex>199</zIndex>
-<color>ffffff</color>
-<glowColor>00000040</glowColor>
-<glowSize>1</glowSize>
-<fontSize tinyScreen="true">0.065</fontSize>
-<glowSize tinyScreen="true">1</glowSize>
-</text>
 
 <text name="sys_description" extra="true">
 <visible>true</visible>
-<pos>0.280 0.280</pos>
-<size>0.540 0.305</size>
+<pos>1 0.810</pos>
+<size>0.460 0.02</size>
 <text></text>
 <fontSize>0.013</fontSize>
 <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
@@ -339,66 +265,57 @@
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>
 <zIndex>195</zIndex>
+<storyboard> 
+<animation property="x" from="1" to="0.330" begin="100" duration="1550" mode="easeOut"/>
+</storyboard>
 </text>
 
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-
 <text lang="es"> <!--español-->
 Última partida : 
 {binding:lastPlayedDate}
 </text>
-
- <text lang="es_MX"> <!--español mx-->
+<text lang="es_MX"> <!--español mx-->
 Última partida : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="fr"> <!--frances-->
 Dernier match : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="en"> <!--ingles-->
 Last game : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="ar"> <!--arabe-->
 أخر لعبة : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="ca"> <!--catalan-->
 darrera partida : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="cy"> <!--gales-->
 Gêm olaf : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="de"> <!--aleman-->
 Letztes Spiel : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="el"> <!--griego-->
 Τελευταίο παιχνίδι : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="eu"> <!--euskera-->
 Azken partida : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="hu"> <!--hungaro-->
 Utolsó játék : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="it"> <!--italiano-->
 Ultimo gioco : 
 {binding:lastPlayedDate}
@@ -407,137 +324,115 @@ Ultimo gioco :
 Ultimo gioco : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="ja"> <!--japones-->
 最後の試合 : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="ko"> <!--coreano-->
 마지막 게임 : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="nl"> <!--neerlandes-->
 Laatste spel : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="nn"> <!--noruego-->
 Siste spill : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="se"> <!--noruego-->
 Siste spill : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="pl"> <!--polaco-->
 Ostatnia gra : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="pr"> <!--portuges-->
 Ultimo jogo : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="pt_BR"> <!--portuges brasil-->
 Ultimo jogo : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="ru"> <!--ruso-->
 Последняя игра : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="tr"> <!--turko-->
 Son Oyun : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="uk"> <!--ucraniano-->
 Остання гра : 
 {binding:lastPlayedDate}
 </text>
-
 <text lang="zh"> <!--chino-->
 最后一盘游戏 : 
 {binding:lastPlayedDate}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
-        <fontSize>0.015</fontSize>
-        <pos>0.332 0.146</pos>
+        <fontSize>0.019</fontSize>
+        <pos>-1.035 0.030</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
         <color>ffffff</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
-      </text>
+        <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="950" mode="easeOut"/>
+</storyboard>
+</text>
       
       
 <text name="systemInfoEx2" extra="true">
  <visible>true</visible>
-
-
 <text lang="es"> <!--español-->
 Mas Jugado : 
 {binding:mostPlayed}
 </text>
-
  <text lang="es_MX"> <!--español mx-->
 Mas Jugado : 
 {binding:mostPlayed}
 </text>
-
 <text lang="fr"> <!--frances-->
 Le plus joué : 
 {binding:mostPlayed}
 </text>
-
 <text lang="en"> <!--ingles-->
 Most Played : 
 {binding:mostPlayed}
 </text>
-
 <text lang="ar"> <!--arabe-->
 الأكثر لعبا  : 
 {binding:mostPlayed}
 </text>
-
 <text lang="ca"> <!--catalan-->
 Mas Jugat : 
 {binding:mostPlayed}
 </text>
-
 <text lang="cy"> <!--gales-->
 Wedi chwarae fwyaf : 
 {binding:mostPlayed}
 </text>
-
 <text lang="de"> <!--aleman-->
 Meist gespielt : 
 {binding:mostPlayed}
 </text>
-
 <text lang="el"> <!--griego-->
 Τα περισσότερα παίζονται : 
 {binding:mostPlayed}
 </text>
-
 <text lang="eu"> <!--euskera-->
 Jokatu Gehienak : 
 {binding:mostPlayed}
 </text>
-
 <text lang="hu"> <!--hungaro-->
 Legtöbbet játszott : 
 {binding:mostPlayed}
 </text>
-
 <text lang="it"> <!--italiano-->
 Più giocato : 
 {binding:mostPlayed}
@@ -546,496 +441,218 @@ Più giocato :
 Più giocato : 
 {binding:mostPlayed}
 </text>
-
 <text lang="ja"> <!--japones-->
 最もプレイされた : 
 {binding:mostPlayed}
 </text>
-
 <text lang="ko"> <!--coreano-->
 대부분의 플레이 : 
 {binding:mostPlayed}
 </text>
-
 <text lang="nl"> <!--neerlandes-->
 Meest gespeeld : 
 {binding:mostPlayed}
 </text>
-
 <text lang="nn"> <!--noruego-->
 Mest spilt : 
 {binding:mostPlayed}
 </text>
-
 <text lang="se"> <!--noruego-->
 Mest spilt : 
 {binding:mostPlayed}
 </text>
-
 <text lang="pl"> <!--polaco-->
 Najczęściej grane : 
 {binding:mostPlayed}
 </text>
-
 <text lang="pr"> <!--portuges-->
 Mais tocado : 
 {binding:mostPlayed}
 </text>
-
 <text lang="pt_BR"> <!--portuges brasil-->
 Mais tocado : 
 {binding:mostPlayed}
 </text>
-
 <text lang="ru"> <!--ruso-->
 Самая популярная : 
 {binding:mostPlayed}
 </text>
-
 <text lang="tr"> <!--turko-->
 En çok oynanan : 
 {binding:mostPlayed}
 </text>
-
 <text lang="uk"> <!--ucraniano-->
 Найіграніші : 
 {binding:mostPlayed}
 </text>
-
 <text lang="zh"> <!--chino-->
 播放次数最多: 
-{binding:mostPlayed}
+{binding:
+mostPlayed}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
-       <fontSize>0.015</fontSize>
-        <pos>0.448 0.146</pos>
-        <size>0.09 0.28</size>
+       <fontSize>0.019</fontSize>
+        <pos>0.033 0.350</pos>
+        <size>0.12 0.28</size>
         <zIndex>50</zIndex>
         <color>ffffff</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
-      </text>
+         <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="950" mode="easeOut"/>
+</storyboard>
+</text>
 
       
 <text name="systemInfoEx3" extra="true">
  <visible>true</visible>
-
 <text lang="es"> <!--español-->
-Veces Jugados : 
-{binding:played}
-</text>
+Total De Juegos : 
 
+    {binding:total}
+</text>
  <text lang="es_MX"> <!--español mx-->
-Veces Jugados : 
-{binding:played}
-</text>
+Total De Juegos : 
 
+    {binding:total}
+</text>
 <text lang="fr"> <!--frances-->
-Fois jouées : 
-{binding:played}
-</text>
+Total de jeux : 
 
+    {binding:total}
+</text>
 <text lang="en"> <!--ingles-->
-Times Played : 
-{binding:played}
-</text>
+Total Games : 
 
+    {binding:total}
+</text>
 <text lang="ar"> <!--arabe-->
-مرات اللعب  : 
-{binding:played}
-</text>
+إجمالي الألعاب : 
 
+    {binding:total}
+</text>
 <text lang="ca"> <!--catalan-->
-vegades Jugats : 
-{binding:played}
-</text>
+Total D'Jocs : 
 
+    {binding:total}
+</text>
 <text lang="cy"> <!--gales-->
-Amseroedd Chwarae : 
-{binding:played}
-</text>
+Cyfanswm y Gemau : 
 
+    {binding:total}
+</text>
 <text lang="de"> <!--aleman-->
-Mal gespielt : 
-{binding:played}
-</text>
+Gesamtspiele : 
 
+    {binding:total}
+</text>
 <text lang="el"> <!--griego-->
-Χρόνοι που παίζονται : 
-{binding:played}
-</text>
+Σύνολο παιχνιδιών : 
 
+    {binding:total}
+</text>
 <text lang="eu"> <!--euskera-->
-Aldiz jokatu zen : 
-{binding:played}
-</text>
+Total Games : 
 
+    {binding:total}
+</text>
 <text lang="hu"> <!--hungaro-->
-Times Played : 
-{binding:played}
-</text>
+Összes játék : 
 
+    {binding:total}
+</text>
 <text lang="it"> <!--italiano-->
-Volte giocate : 
-{binding:played}
+Giochi totali : 
+
+    {binding:total}
 </text>
 <text lang="oc"> <!--italiano-->
-Volte giocate : 
-{binding:played}
-</text>
+Giochi totali : 
 
+    {binding:total}
+</text>
 <text lang="ja"> <!--japones-->
-プレイした時間 : 
-{binding:played}
+トータルゲーム : 
+
+    {binding:total}
 </text>
 
 <text lang="ko"> <!--coreano-->
-플레이 횟수 : 
-{binding:played}
-</text>
+총 게임 : 
 
+    {binding:total}
+</text>
 <text lang="nl"> <!--neerlandes-->
-Keer gespeeld : 
-{binding:played}
-</text>
+Totaal aantal spellen : 
 
+    {binding:total}
+</text>
 <text lang="nn"> <!--noruego-->
-Times Spilt : 
-{binding:played}
-</text>
+Totalt antall spill : 
 
+    {binding:total}
+</text>
 <text lang="se"> <!--noruego-->
-Times Spilt : 
-{binding:played}
-</text>
+Totalt antall spill : 
 
+    {binding:total}
+</text>
 <text lang="pl"> <!--polaco-->
-Zagrane razy : 
-{binding:played}
-</text>
+Total Games : 
 
+    {binding:total}
+</text>
 <text lang="pr"> <!--portuges-->
-Vezes Jogadas : 
-{binding:played}
-</text>
+Total de jogos : 
 
+    {binding:total}
+</text>
 <text lang="pt_BR"> <!--portuges brasil-->
-Vezes Jogadas : 
-{binding:played}
-</text>
+Total de jogos : 
 
+    {binding:total}
+</text>
 <text lang="ru"> <!--ruso-->
-Раз сыграно : 
-{binding:played}
-</text>
+Всего игр : 
 
+    {binding:total}
+</text>
 <text lang="tr"> <!--turko-->
-Oynanan Kere : 
-{binding:played}
-</text>
+Toplam Oyun : 
 
+    {binding:total}
+</text>
 <text lang="uk"> <!--ucraniano-->
-Відіграно разів : 
-{binding:played}
-</text>
+Всього ігор : 
 
+    {binding:total}
+</text>
 <text lang="zh"> <!--chino-->
-播放次数 : 
-{binding:played}
+游戏总数: 
+
+    {binding:total}
 </text>
 <verticalAlignment>center</verticalAlignment>
-           <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
-       <fontSize>0.015</fontSize>
-        <pos>0.550 0.146</pos>
+          <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+        <fontSize>0.017</fontSize>
+        <pos>0.035 0.670</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
         <color>ffffff</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
-      </text>
-      
-
-<text name="systemInfoEx4" extra="true">
- <visible>true</visible>
- 
- <text lang="es"> <!--español-->
-Jugados : 
-{binding:gamesPlayed}
-</text>
-
- <text lang="es_MX"> <!--español mx-->
-Jugados : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="fr"> <!--frances-->
-Joué : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="en"> <!--ingles-->
-Played : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="ar"> <!--arabe-->
-لعب : {binding:gamesPlayed}
-</text>
-
-<text lang="ca"> <!--catalan-->
-jugats : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="cy"> <!--gales-->
-Wedi chwarae : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="de"> <!--aleman-->
-Gespielt : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="el"> <!--griego-->
-Έπαιξε : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="eu"> <!--euskera-->
-Jokatu : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="hu"> <!--hungaro-->
-Játszott : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="it"> <!--italiano-->
-Giocato : 
-{binding:gamesPlayed}
-</text>
-<text lang="oc"> <!--italiano-->
-Giocato : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="ja"> <!--japones-->
-プレイした : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="ko"> <!--coreano-->
-플레이 : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="nl"> <!--neerlandes-->
-Gespeeld : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="nn"> <!--noruego-->
-Spilt : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="se"> <!--noruego-->
-Spilt : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="pl"> <!--polaco-->
-Grał : {binding:gamesPlayed}
-</text>
-
-<text lang="pr"> <!--portuges-->
-Reproduziu : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="pt_BR"> <!--portuges brasil-->
-Reproduziu : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="ru"> <!--ruso-->
-Играл : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="tr"> <!--turko-->
-Oynandı : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="uk"> <!--ucraniano-->
-Грали : 
-{binding:gamesPlayed}
-</text>
-
-<text lang="zh"> <!--chino-->
-玩过: 
-{binding:gamesPlayed}
-</text>
-<verticalAlignment>center</verticalAlignment>
-        <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
-       <fontSize>0.015</fontSize>
-        <pos>0.659 0.146</pos>
-        <size>0.48 0.28</size>
-        <zIndex>50</zIndex>
-        <color>ffffff</color>
-        <glowColor>00000000</glowColor>
-        <glowSize>1</glowSize>
+         <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="1150" mode="easeOut"/>
+</storyboard>
       </text>
 
-
-   
-<text name="systemInfoEx5" extra="true">
- <visible>true</visible>
- <text lang="es"> <!--español-->
-Favoritos : 
-{binding:favorites}
-</text>
-
- <text lang="es_MX"> <!--español mx-->
-Favoritos : 
-{binding:favorites}
-</text>
-
-<text lang="fr"> <!--frances-->
-Favoris : 
-{binding:favorites}
-</text>
-
-<text lang="en"> <!--ingles-->
-Favorites : 
-{binding:favorites}
-</text>
-
-<text lang="ar"> <!--arabe-->
-فافوريتوس : 
-{binding:favorites}
-</text>
-
-<text lang="ca"> <!--catalan-->
-Favorits : 
-{binding:favorites}
-</text>
-
-<text lang="cy"> <!--gales-->
-Hoff : 
-{binding:favorites}
-</text>
-
-<text lang="de"> <!--aleman-->
-Favoritos : 
-{binding:favorites}
-</text>
-
-<text lang="el"> <!--griego-->
-Αγαπημένα : 
-{binding:favorites}
-</text>
-
-<text lang="eu"> <!--euskera-->
-Gogokoak : 
-{binding:favorites}
-</text>
-
-<text lang="hu"> <!--hungaro-->
-Kedvencek : 
-{binding:favorites}
-</text>
-
-<text lang="it"> <!--italiano-->
-Preferiti : 
-{binding:favorites}
-</text>
-
-<text lang="oc"> <!--italiano-->
-Preferiti : 
-{binding:favorites}
-</text>
-
-<text lang="ja"> <!--japones-->
-お気に入り : 
-{binding:favorites}
-</text>
-
-<text lang="ko"> <!--coreano-->
-즐겨 찾기 : 
-{binding:favorites}
-</text>
-
-<text lang="nl"> <!--neerlandes-->
-Favorieten : 
-{binding:favorites}
-</text>
-
-<text lang="nn"> <!--noruego-->
-Favoritter : 
-{binding:favorites}
-</text>
-
-<text lang="se"> <!--noruego-->
-Favoritter : 
-{binding:favorites}
-</text>
-
-<text lang="pl"> <!--polaco-->
-Ulubione : 
-{binding:favorites}
-</text>
-
-<text lang="pr"> <!--portuges-->
-Favoritos : 
-{binding:favorites}
-</text>
-
-<text lang="pt_BR"> <!--portuges brasil-->
-Favoritos : 
-{binding:favorites}
-</text>
-
-<text lang="ru"> <!--ruso-->
-Избранное : 
-{binding:favorites}
-</text>
-
-<text lang="tr"> <!--turko-->
-Favoriler : 
-{binding:favorites}
-</text>
-
-<text lang="uk"> <!--ucraniano-->
-Вибране : 
-{binding:favorites}
-</text>
-
-<text lang="zh"> <!--chino-->
-收藏夹: 
-{binding:favorites}
-</text>
-<verticalAlignment>center</verticalAlignment>
-        <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
-       <fontSize>0.015</fontSize>
-        <pos>0.750 0.146</pos>
-        <size>0.48 0.28</size>
-        <zIndex>50</zIndex>
-        <color>ffffff</color>
-        <glowColor>00000000</glowColor>
-        <glowSize>1</glowSize>
-      </text>
-
-
-            
 <image name="consola,controles" extra="true">
 <visible>false</visible>
 </image>
 </view>
+
+
 
 <view name="basic, detailed, grid, carousel, gamecarousel">
 <image name="personaje" extra="true">

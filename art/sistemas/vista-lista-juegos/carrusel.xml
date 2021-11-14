@@ -396,7 +396,7 @@
       <origin>0.5 0.5</origin>
       <path>./art/sistemas/icons/SaveState.png</path>
       <pos>0.830 0.120</pos>
-      <y ifCheevos="false">0.47</y>
+      <y ifCheevos="false">0.120</y>
       <maxSize>0.03 0.04</maxSize>
       <color>ffffff</color>
       <zIndex>150</zIndex>

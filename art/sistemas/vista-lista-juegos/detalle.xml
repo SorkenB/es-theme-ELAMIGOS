@@ -107,12 +107,13 @@
 
 <video name="md_video">
 <pos>0.6115 0.653</pos>
-<size>0.1978 0.3850</size>
+<maxSize>0.1978 0.3850</maxSize>
 <origin>0.5 0.5</origin>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
  <linearSmooth>true</linearSmooth>
+<loops>5</loops>
 <zIndex>25</zIndex>
 </video>
     
@@ -385,7 +386,7 @@
 
 <image name="logo">
 <pos>0.884 0.782</pos>
-<size>0.199 0.140</size>
+<size>0.199 0.170</size>
 <origin>0.5 0.5</origin>
 <linearSmooth>true</linearSmooth>
 <zIndex>25</zIndex>
@@ -462,7 +463,7 @@
       <origin>0.5 0.5</origin>
       <path>./art/sistemas/icons/SaveState.png</path>
      <pos>0.570 0.060</pos>
-      <y ifCheevos="false">0.47</y>
+      <y ifCheevos="false">0.060</y>
       <maxSize>0.03 0.04</maxSize>
       <color>ffffff</color>
       <zIndex>150</zIndex>

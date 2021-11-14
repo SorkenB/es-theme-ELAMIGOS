@@ -54,6 +54,10 @@
 <!--  Modos de Vistas en sistema -->
 <subset name="systemview" displayName="${systemViewName}">
 <include name="Default">./art/sistemas/systemview/default.xml</include>
+<include name="ESTILO 2 WALLPAPER">./art/sistemas/systemview/ESTILO2 WALLPAPER.xml</include>
+<include name="ESTILO 3 VIDEO">./art/sistemas/systemview/ESTILO 3 VIDEO.xml</include>
+
+<include name="PESTANAS">./art/sistemas/systemview/PESTANAS.xml</include>
 </subset>
 
 <!------------------------ MENU-------------------------->
@@ -314,15 +318,17 @@
 <include name="Ingles" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
 </subset>
 
-<!-- --------------------------------------- ((( OPCIONES DE LOGOS ))) -------------------------------- -->
+<!--  LOGOD EN SYSTEM -->
 <subset name="cambiar-logos-en-carrusel" displayName="${cambiar-logos-en-carruselName}">
+ <include name="˙SILVERRING default " displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>   
 <include name="˙SIMPLES" displayName="${no}">./art/sistemas/storyboards/logos/simples.xml</include>   
- <include name="˙SILVERRING default " displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>    
+ <include name="˙MARQUEE" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include>   
 </subset>
 
-<!--  tipo de marquesina -->
+<!--  LOGOD EN GAMELIST -->
 <subset name="cambiar-logos-en-gamelist" displayName="${cambiar-logos-en-gamelistName}">
-<include name=" ˙LOGO CARBON DEL SISTEMA">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
+<include name=" ˙SILVERRING">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙MARQUEE">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
 <include name=" ˙LOGOS DE JUEGOS">./art/sistemas/storyboards/menu/logo/logo.xml</include>
 </subset>
 
@@ -491,4 +497,6 @@
 <include name="BASIC">./art/sistemas/vista-lista-juegos/detalle.xml</include>
 <include name="GRID">./art/sistemas/vista-lista-juegos/grid.xml</include>
 <include name="CAROUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+<include name="ESTILO 2 VIDEO">./art/sistemas/vista-lista-juegos/ESTILO 2 video.xml</include>
+<include name="PESTANAS">./art/sistemas/vista-lista-juegos/PESTANAS.xml</include>
 </theme>

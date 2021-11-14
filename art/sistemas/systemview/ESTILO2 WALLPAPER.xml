@@ -5,7 +5,7 @@
 <carousel name="systemcarousel">
 <zIndex>90</zIndex>	      
 <type>vertical</type>
-<pos>0.410 0</pos>
+<pos>-0.410 0</pos>
 <size>1 1</size>
 <logoScale>1.05</logoScale>
 <logoSize>0.100 0.260</logoSize>
@@ -17,16 +17,17 @@
 <defaultTransition>instant</defaultTransition>      
 </carousel>
 
+
 <text name="systemInfo">
 <visible>true</visible>
 <systemInfoDelay>300</systemInfoDelay>
-<pos>0.319  0.357</pos>
+<pos>0.675  0.730</pos>
 <size>0.420 0.35</size>
 <fontSize>0.02</fontSize>
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>ffffff</color>
-<glowColor>000000</glowColor>
+<color>000000</color>
+<glowColor>ffffff</glowColor>
 <glowSize>1</glowSize>
 <reflexion>0.0 0.0</reflexion>
 <rotation>0</rotation> 
@@ -45,131 +46,42 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/sistemas/fondos/background sistema.png</path>
+<path>./art/sistemas/fondos/disenio2.png</path>
 <zIndex>35</zIndex>
 </image>
 
 <image name="background3" extra="true">
 <tile>false</tile>
-<visible>false</visible>
-<color>ffffff10</color>
-<size>1 1</size>
-<pos>0 0</pos>
+<visible>true</visible>
+<color>ffffff</color>
+<pos>0.1830 0</pos>
+<size>0.8188 0.8370</size>
 <origin>0 0</origin>
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
-<zIndex>95</zIndex>
+<zIndex>33</zIndex>
 </image> 
 
 
 <video name="backgroundvideo1" extra="true">
-<visible>true</visible>
+<visible>false</visible>
 <path>{random}</path>  
 <rotation>0</rotation>  
-<roundCorners>0.03</roundCorners>      
-<pos>0.2420 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
+<roundCorners>0</roundCorners>      
+<pos>0.1830 0</pos>
+<size>0.8188 0.8370</size>
+<origin>0 0</origin>
+<delay>1</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
  <linearSmooth>true</linearSmooth>
 <color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo1" extra="true">
-<visible>true</visible>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.2000 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo2" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.3740 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo3" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.5480 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
-</video>
-
-<video name="backgroundvideo4" extra="true">
-<visible>true</visible>
-<audio>${v0.audio}</audio>
-<path>{random}</path>  
-<rotation>0</rotation>  
-<roundCorners>0.05</roundCorners>      
-<pos>0.7220 0.780</pos>
-<size>0.1668 0.1900</size>
-<origin>0.5 0.5</origin>
-<delay>0</delay>
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
- <linearSmooth>true</linearSmooth>
-<color>FFFFFF</color>
-<zIndex>99</zIndex>
+<zIndex>34</zIndex>
 </video>
 
 
-<image name="box10" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.160 0.190</pos>
-<maxSize>0.17 0.50</maxSize>
-<zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-<visible>true</visible>
-<reflexion>0.0 0.0</reflexion>
-<opacity>0</opacity>
-<scale>0</scale>
-<scaleOrigin>0 0.5</scaleOrigin>
-<zIndex>97</zIndex>
-<storyboard repeat="forever">
-<animation property="opacity" from="0" to="1" begin="350" duration="700" mode="linear"/>
-<animation property="scale" from="0" to="1" begin="0" duration="800"/>
-
-<animation property="y" from="0.330"  to="0.330" begin="0" duration="1780" autoreverse="true" begin="2000" repeat="5"/>
-</storyboard>
-</image>
-
-<image name="box2,box1" extra="true">
+<image name="controles,consola,box10,box2,box1" extra="true">
 <visible>false</visible>
 <color>FFFFFFFF</color>
 </image>
@@ -244,32 +156,12 @@
 <zIndex>291</zIndex>
 </image>
 
-<image name="box1" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.401 0.60</pos>
-<maxSize>0.07 0.30</maxSize>
-<zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-</image>
-
-<image name="box2" extra="true">
-<origin>0.5 0.5</origin>
-<pos>0.351 0.60</pos>
-<maxSize>0.04 0.20</maxSize>
-<zIndex>40</zIndex>
-<path>{random:thumbnail}</path>
-<color>FFFFFFFF</color>
-<roundCorners>0.05</roundCorners>
-</image>
-
 <helpsystem name="help">
 <visible>false</visible>
-<textColor>ffffff</textColor>
-<iconColor>ffffff</iconColor>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.05 0.950</pos>
+<pos>0.20 0.980</pos>
 <zIndex>90</zIndex>
 </helpsystem>
       
@@ -286,23 +178,9 @@
 </image>
 
 
-<text name="fullNamebigbox" extra="true">
-<text>${system.fullName}</text>
-<alignment>left</alignment>
-<verticalAlignment>top</verticalAlignment>
-<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.024</fontSize>
-<alignment>center</alignment>
-<pos>0.290 0.518</pos>
-<pos verticalScreen="true">0.03 0.10</pos>         
-<size>0.14 0.02</size>
-<zIndex>190</zIndex>
-<color>D0D0D0FF</color>
-<glowColor>000000A0</glowColor>
-<glowSize>1</glowSize>  
-<pos tinyScreen="true">0.03 0.13</pos>
-<glowColor tinyScreen="true">00000040</glowColor>
-<fontSize tinyScreen="true">0.035</fontSize>
+<text name="manufacturerbigbox,fullNamebigbox" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
 </text>
 
 <text name="sys_info" extra="true">
@@ -310,32 +188,16 @@
 <color>00000000</color>
 </text>
 
-<text name="manufacturerbigbox" extra="static">
-<text>${system.sortedBy}</text>
-<alignment>left</alignment>
-<verticalAlignment>top</verticalAlignment>
-<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.030</fontSize>
-<pos>0.660 0.512</pos>
-<size>0.942 0.28</size>
-<color>C0C0C0</color>      
-<zIndex>199</zIndex>
-<color>ffffff</color>
-<glowColor>00000040</glowColor>
-<glowSize>1</glowSize>
-<fontSize tinyScreen="true">0.065</fontSize>
-<glowSize tinyScreen="true">1</glowSize>
-</text>
 
 <text name="sys_description" extra="true">
 <visible>true</visible>
-<pos>0.280 0.280</pos>
-<size>0.540 0.305</size>
+<pos>0.187 0.810</pos>
+<size>0.800 0.02</size>
 <text></text>
 <fontSize>0.013</fontSize>
 <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
 <color>ffffff</color>
-<glowColor>00000000</glowColor>
+<glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>
 <zIndex>195</zIndex>
@@ -470,10 +332,10 @@ Son Oyun :
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
         <fontSize>0.015</fontSize>
-        <pos>0.332 0.146</pos>
+        <pos>0.332 0.756</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
-        <color>ffffff</color>
+        <color>000000</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
       </text>
@@ -609,10 +471,10 @@ En çok oynanan :
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
        <fontSize>0.015</fontSize>
-        <pos>0.448 0.146</pos>
+        <pos>0.448 0.756</pos>
         <size>0.09 0.28</size>
         <zIndex>50</zIndex>
-        <color>ffffff</color>
+        <color>000000</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
       </text>
@@ -747,10 +609,10 @@ Oynanan Kere :
 <verticalAlignment>center</verticalAlignment>
            <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
        <fontSize>0.015</fontSize>
-        <pos>0.550 0.146</pos>
+        <pos>0.550 0.756</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
-        <color>ffffff</color>
+        <color>000000</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
       </text>
@@ -883,10 +745,10 @@ Oynandı :
 <verticalAlignment>center</verticalAlignment>
         <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
        <fontSize>0.015</fontSize>
-        <pos>0.659 0.146</pos>
+        <pos>0.659 0.756</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
-        <color>ffffff</color>
+        <color>000000</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
       </text>
@@ -1022,20 +884,20 @@ Favoriler :
 <verticalAlignment>center</verticalAlignment>
         <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
        <fontSize>0.015</fontSize>
-        <pos>0.750 0.146</pos>
+        <pos>0.750 0.756</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
-        <color>ffffff</color>
+        <color>000000</color>
         <glowColor>00000000</glowColor>
         <glowSize>1</glowSize>
       </text>
 
-
-            
 <image name="consola,controles" extra="true">
 <visible>false</visible>
 </image>
 </view>
+
+
 
 <view name="basic, detailed, grid, carousel, gamecarousel">
 <image name="personaje" extra="true">
